@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description>TalentXplorer Data Pipeline</description>
+    <groupId>11111111-1111-1111-1111-111111111111</groupId>
+    <name>TalentXplorer Data Pipeline</name>
+    <snippet>
+        <processors>
+            <!-- ListFile processor -->
+            <id>11111111-1111-1111-1111-111111111112</id>
+            <parentGroupId>11111111-1111-1111-1111-111111111111</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.15.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <deschedulingTimeoutDuration>0 sec</deschedulingTimeoutDuration>
+                <executionNode>ALL</executionNode>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <property name="File Filter">.*\.xlsx$</property>
+                    <property name="Input Directory">/path/to/your/input_files</property>
+                    <property name="Recurse Subdirectories">false</property>
+                </properties>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>ListFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+        </processors>
+
+        <!-- Add other processors for FetchFile, ExecuteStreamCommand, and PutFile following the same structure as ListFile -->
+
+            <!-- ListFile processor -->
+            <id>11111111-1111-1111-1111-111111111113</id>
+            <parentGroupId>11111111-1111-1111-1111-111111111111</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.15.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <deschedulingTimeoutDuration>0 sec</deschedulingTimeoutDuration>
+                <executionNode>ALL</executionNode>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <property name="File Filter">.*\.xlsx$</property>
+                    <property name="Input Directory">/path/to/your/input_files</property>
+                    <property name="Recurse Subdirectories">false</property>
+                </properties>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>ListFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+        </processors>
+		
+		            <!-- ListFile processor -->
+            <id>11111111-1111-1111-1111-111111111114</id>
+            <parentGroupId>11111111-1111-1111-1111-111111111111</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.15.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <deschedulingTimeoutDuration>0 sec</deschedulingTimeoutDuration>
+                <executionNode>ALL</executionNode>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <property name="File Filter">.*\.xlsx$</property>
+                    <property name="Input Directory">/path/to/your/input_files</property>
+                    <property name="Recurse Subdirectories">false</property>
+                </properties>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>ListFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+        </processors>
+    </snippet>
+    <timestamp>04/05/2023 00:00:00 UTC</timestamp>
+</template>

@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  nifi:
+    build: .
+    container_name: OS_Intelligent_nifi
+    ports:
+      - "8080:8080"
+    environment:
+      - NIFI_WEB_HTTP_PORT=8080
+      - NIFI_WEB_HTTP_HOST=0.0.0.0
+    volumes:
+      - ./custom_processors:/opt/nifi/nifi-current/extensions
+      - ./python_scripts:/opt/nifi/nifi-current/python_scripts
+      - ./input_files:/opt/nifi/nifi-current/input_files
+      - ./output_files:/opt/nifi/nifi-current/output_files
+      - ./output_files:/opt/nifi/nifi-current/json_files
+    depends_on:
+      - os_intelligent_db
+
+  os_intelligent_db:
+    image: postgres:latest
+    container_name: os_intelligent_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=os_intelligent
+    ports:
+      - "5432:5432"
+    volumes:
+      - os_intelligent_db_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: os_intelligent_pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@example.com
+      - PGADMIN_DEFAULT_PASSWORD=pgadminpassword
+      - PGADMIN_LISTEN_PORT=5050
+    ports:
+      - "5050:5050"
+    depends_on:
+      - os_intelligent_db
+    volumes:
+      - ./input_files:/nifi/input_files
+      - ./output_files:/nifi/output_files
+      - pgadmin_data:/var/lib/pgadmin
+
+  dnsviz:
+    image: dnsviz/dnsviz
+    container_name: dnsviz_container
+    volumes:
+      - ./dnsviz_data:/data
+
+volumes:
+  os_intelligent_db_data:
+  pgadmin_data:

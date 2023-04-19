@@ -1,0 +1,1957 @@
+{
+    ".": {
+        "status": "NOERROR",
+        "queries": {
+            "./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "description": "RRset for ./DNSKEY",
+                        "name": ".",
+                        "ttl": 172800,
+                        "type": "DNSKEY",
+                        "rdata": [
+                            "256 3 8 AwEAAbF1LAxEQPtClEQno48k6u7JjCOf VfwdENOxQUrX0JbpN5DnKGMAKIfdiWa5 oDeKQ3OoQ58yCC8vjtaaGFDgpJxoLwqz hBYHPGFgins5HIERcCQPGAJKWu/ku4XL h+Fu7UyBubDCelxKTbnj26EwbochltRq GIE8hbwSXEzRNo4g+NXkaRMq2FFbaBtE E82yTmZUgFRYAFUvfGTPWblyZGtkepVu HyNb0w/u24dpsz+uyCZZR04cHfRrWOKv qD3lDOwC4+sqd6f7F841R0N2tqSh/WDU ZzWdvPBaBOz0FWFLb9porIeZ3Jm08tAM Ha+3SGRXfK4RAmxVCmIQQypGabE=",
+                            "257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexT BAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq 7HrxRixHlFlExOLAJr5emLvN7SWXgnLh 4+B5xQlNVz8Og8kvArMtNROxVQuCaSnI DdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLr jyBxWezF0jLHwVN8efS3rCj/EWgvIWgb 9tarpVUDK/b58Da+sqqls3eNbuv7pr+e oZG+SrDK6nWeL3c6H5Apxz7LjVc1uTId sIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6 +cn8HFRm+2hM8AnXGXws9555KrUB5qih ylGa8subX2Nn6UwNR1AkUTV74bU="
+                        ],
+                        "servers": [
+                            "192.5.5.241",
+                            "192.33.4.12",
+                            "192.36.148.17",
+                            "192.58.128.30",
+                            "192.112.36.4",
+                            "192.203.230.10",
+                            "192.228.79.201",
+                            "193.0.14.129",
+                            "198.41.0.4",
+                            "198.97.190.53",
+                            "199.7.83.42",
+                            "199.7.91.13",
+                            "199.9.14.201",
+                            "202.12.27.33"
+                        ],
+                        "ns_names": [
+                            "a.root-servers.net.",
+                            "b.root-servers.net.",
+                            "c.root-servers.net.",
+                            "d.root-servers.net.",
+                            "e.root-servers.net.",
+                            "f.root-servers.net.",
+                            "g.root-servers.net.",
+                            "h.root-servers.net.",
+                            "i.root-servers.net.",
+                            "j.root-servers.net.",
+                            "k.root-servers.net.",
+                            "l.root-servers.net.",
+                            "m.root-servers.net."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "rrsig": [
+                            {
+                                "id": "./8/20326",
+                                "description": "RRSIG covering ./DNSKEY",
+                                "signer": ".",
+                                "algorithm": 8,
+                                "key_tag": 20326,
+                                "original_ttl": 172800,
+                                "labels": 0,
+                                "inception": "2023-04-11 00:00:00 UTC",
+                                "expiration": "2023-05-02 00:00:00 UTC",
+                                "signature": "ID/zjsZ8MPaJMm4Ilw9PESU92a/MvPFKlKkE8d2qAbDVfMGYQikmls8z0fIorVfoGECgiEey42+Y4Bk99qTEFxPrCml12/xyJcmzQICQcr28djuMMA+yY7w57GuRLkE+LTnl5IdlucNf52gS/eKSBIjKH3hNYElH6BwIbTHKV5Jh1ZJgFTo+FRtrniR4HlhhHaydDVLc2A8FG3Whl1kyATDlqcLrF6yqbjAhNR0+Ak26gd5BkY9kwOYCMZ2KQ1RBKRmG3DbktohYVHbH2j6B6kfIjooRwY5hWyNQnBZP6LOHQLyfYrUTR3EK438G9VW0tXvNqL3ssDhuxhbFy7x3hw==",
+                                "ttl": 172800,
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.5.241",
+                                    "192.33.4.12",
+                                    "192.36.148.17",
+                                    "192.58.128.30",
+                                    "192.112.36.4",
+                                    "192.203.230.10",
+                                    "192.228.79.201",
+                                    "193.0.14.129",
+                                    "198.41.0.4",
+                                    "198.97.190.53",
+                                    "199.7.83.42",
+                                    "199.7.91.13",
+                                    "199.9.14.201",
+                                    "202.12.27.33"
+                                ],
+                                "ns_names": [
+                                    "a.root-servers.net.",
+                                    "b.root-servers.net.",
+                                    "c.root-servers.net.",
+                                    "d.root-servers.net.",
+                                    "e.root-servers.net.",
+                                    "f.root-servers.net.",
+                                    "g.root-servers.net.",
+                                    "h.root-servers.net.",
+                                    "i.root-servers.net.",
+                                    "j.root-servers.net.",
+                                    "k.root-servers.net.",
+                                    "l.root-servers.net.",
+                                    "m.root-servers.net."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "cookie_status": {
+                            "192.5.5.241": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.4.12": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.36.148.17": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.58.128.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.112.36.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.203.230.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.228.79.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.0.14.129": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.41.0.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.97.190.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.83.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.91.13": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.9.14.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.12.27.33": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "8/60955",
+                "description": "DNSKEY for . (algorithm 8 (RSA/SHA-256), key tag 60955)",
+                "flags": 256,
+                "protocol": 3,
+                "algorithm": 8,
+                "key": "AwEAAbF1LAxEQPtClEQno48k6u7JjCOfVfwdENOxQUrX0JbpN5DnKGMAKIfdiWa5oDeKQ3OoQ58yCC8vjtaaGFDgpJxoLwqzhBYHPGFgins5HIERcCQPGAJKWu/ku4XLh+Fu7UyBubDCelxKTbnj26EwbochltRqGIE8hbwSXEzRNo4g+NXkaRMq2FFbaBtEE82yTmZUgFRYAFUvfGTPWblyZGtkepVuHyNb0w/u24dpsz+uyCZZR04cHfRrWOKvqD3lDOwC4+sqd6f7F841R0N2tqSh/WDUZzWdvPBaBOz0FWFLb9porIeZ3Jm08tAMHa+3SGRXfK4RAmxVCmIQQypGabE=",
+                "ttl": 172800,
+                "key_length": 2048,
+                "key_tag": 60955,
+                "servers": [
+                    "192.5.5.241",
+                    "192.33.4.12",
+                    "192.36.148.17",
+                    "192.58.128.30",
+                    "192.112.36.4",
+                    "192.203.230.10",
+                    "192.228.79.201",
+                    "193.0.14.129",
+                    "198.41.0.4",
+                    "198.97.190.53",
+                    "199.7.83.42",
+                    "199.7.91.13",
+                    "199.9.14.201",
+                    "202.12.27.33"
+                ],
+                "ns_names": [
+                    "a.root-servers.net.",
+                    "b.root-servers.net.",
+                    "c.root-servers.net.",
+                    "d.root-servers.net.",
+                    "e.root-servers.net.",
+                    "f.root-servers.net.",
+                    "g.root-servers.net.",
+                    "h.root-servers.net.",
+                    "i.root-servers.net.",
+                    "j.root-servers.net.",
+                    "k.root-servers.net.",
+                    "l.root-servers.net.",
+                    "m.root-servers.net."
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/20326",
+                "description": "DNSKEY for . (algorithm 8 (RSA/SHA-256), key tag 20326)",
+                "flags": 257,
+                "protocol": 3,
+                "algorithm": 8,
+                "key": "AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=",
+                "ttl": 172800,
+                "key_length": 2048,
+                "key_tag": 20326,
+                "servers": [
+                    "192.5.5.241",
+                    "192.33.4.12",
+                    "192.36.148.17",
+                    "192.58.128.30",
+                    "192.112.36.4",
+                    "192.203.230.10",
+                    "192.228.79.201",
+                    "193.0.14.129",
+                    "198.41.0.4",
+                    "198.97.190.53",
+                    "199.7.83.42",
+                    "199.7.91.13",
+                    "199.9.14.201",
+                    "202.12.27.33"
+                ],
+                "ns_names": [
+                    "a.root-servers.net.",
+                    "b.root-servers.net.",
+                    "c.root-servers.net.",
+                    "d.root-servers.net.",
+                    "e.root-servers.net.",
+                    "f.root-servers.net.",
+                    "g.root-servers.net.",
+                    "h.root-servers.net.",
+                    "i.root-servers.net.",
+                    "j.root-servers.net.",
+                    "k.root-servers.net.",
+                    "l.root-servers.net.",
+                    "m.root-servers.net."
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "zone": {
+            "servers": {
+                "a.root-servers.net.": {
+                    "auth": [
+                        "198.41.0.4",
+                        "2001:503:ba3e::2:30"
+                    ]
+                },
+                "b.root-servers.net.": {
+                    "stealth": [
+                        "192.228.79.201"
+                    ]
+                },
+                "c.root-servers.net.": {
+                    "auth": [
+                        "192.33.4.12",
+                        "2001:500:2::c"
+                    ]
+                },
+                "d.root-servers.net.": {
+                    "auth": [
+                        "199.7.91.13",
+                        "2001:500:2d::d"
+                    ]
+                },
+                "e.root-servers.net.": {
+                    "auth": [
+                        "192.203.230.10",
+                        "2001:500:a8::e"
+                    ]
+                },
+                "f.root-servers.net.": {
+                    "auth": [
+                        "192.5.5.241",
+                        "2001:500:2f::f"
+                    ]
+                },
+                "g.root-servers.net.": {
+                    "auth": [
+                        "192.112.36.4",
+                        "2001:500:12::d0d"
+                    ]
+                },
+                "h.root-servers.net.": {
+                    "auth": [
+                        "198.97.190.53",
+                        "2001:500:1::53"
+                    ]
+                },
+                "i.root-servers.net.": {
+                    "auth": [
+                        "192.36.148.17",
+                        "2001:7fe::53"
+                    ]
+                },
+                "j.root-servers.net.": {
+                    "auth": [
+                        "192.58.128.30",
+                        "2001:503:c27::2:30"
+                    ]
+                },
+                "k.root-servers.net.": {
+                    "auth": [
+                        "193.0.14.129",
+                        "2001:7fd::1"
+                    ]
+                },
+                "l.root-servers.net.": {
+                    "auth": [
+                        "199.7.83.42",
+                        "2001:500:9f::42"
+                    ]
+                },
+                "m.root-servers.net.": {
+                    "auth": [
+                        "202.12.27.33",
+                        "2001:dc3::35"
+                    ]
+                }
+            }
+        }
+    },
+    "pa.": {
+        "status": "NOERROR",
+        "queries": {
+            "pa./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "pa./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "description": "NSEC record(s) proving non-existence (NODATA) of pa/DS",
+                                "nsec": [
+                                    {
+                                        "id": "pa./IN/NSEC",
+                                        "description": "RRset for pa/NSEC",
+                                        "name": "pa.",
+                                        "ttl": 86400,
+                                        "type": "NSEC",
+                                        "rdata": [
+                                            "page. NS RRSIG NSEC"
+                                        ],
+                                        "servers": [
+                                            "192.5.5.241",
+                                            "192.33.4.12",
+                                            "192.36.148.17",
+                                            "192.58.128.30",
+                                            "192.112.36.4",
+                                            "192.203.230.10",
+                                            "192.228.79.201",
+                                            "193.0.14.129",
+                                            "198.41.0.4",
+                                            "198.97.190.53",
+                                            "199.7.83.42",
+                                            "199.7.91.13",
+                                            "199.9.14.201",
+                                            "202.12.27.33"
+                                        ],
+                                        "ns_names": [
+                                            "a.root-servers.net.",
+                                            "b.root-servers.net.",
+                                            "c.root-servers.net.",
+                                            "d.root-servers.net.",
+                                            "e.root-servers.net.",
+                                            "f.root-servers.net.",
+                                            "g.root-servers.net.",
+                                            "h.root-servers.net.",
+                                            "i.root-servers.net.",
+                                            "j.root-servers.net.",
+                                            "k.root-servers.net.",
+                                            "l.root-servers.net.",
+                                            "m.root-servers.net."
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ],
+                                        "rrsig": [
+                                            {
+                                                "id": "./8/60955",
+                                                "description": "RRSIG covering pa/NSEC",
+                                                "signer": ".",
+                                                "algorithm": 8,
+                                                "key_tag": 60955,
+                                                "original_ttl": 86400,
+                                                "labels": 1,
+                                                "inception": "2023-04-18 16:00:00 UTC",
+                                                "expiration": "2023-05-01 17:00:00 UTC",
+                                                "signature": "Xhn5mjvnbrnQA+cUsuL49afbbnKBDpQSlEL42rlHcB6EGzojUlE+NR/3x6m3Zj9JyR+7tEjMKJwAgGz4H95Q2fkbS2h1q84yznSICF4UqsLF3eDJiKd7nkgc6VDJoExkq/JTp3EgMLFuEYI0c6PmYUAA1mknkKh+uJbUXX8ZaobfAd2zXUr+iXigpCLae3KwS9worQirLCWnawu51ueFPrR+2TzJ7bpR0gn70oCP0MqdQZ7X3t2qDPevPaIBW2SnL7LmLlJzvueQf3spKvE7Dl6dZOgFk+zeykKA8fmACnvfq90A9Nat3jFOf+WT+UlXZ5ecFfczCfWkCd2JNReyNA==",
+                                                "ttl": 86400,
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "192.5.5.241",
+                                                    "192.33.4.12",
+                                                    "192.36.148.17",
+                                                    "192.58.128.30",
+                                                    "192.112.36.4",
+                                                    "192.203.230.10",
+                                                    "192.228.79.201",
+                                                    "193.0.14.129",
+                                                    "198.41.0.4",
+                                                    "198.97.190.53",
+                                                    "199.7.83.42",
+                                                    "199.7.91.13",
+                                                    "199.9.14.201",
+                                                    "202.12.27.33"
+                                                ],
+                                                "ns_names": [
+                                                    "a.root-servers.net.",
+                                                    "b.root-servers.net.",
+                                                    "c.root-servers.net.",
+                                                    "d.root-servers.net.",
+                                                    "e.root-servers.net.",
+                                                    "f.root-servers.net.",
+                                                    "g.root-servers.net.",
+                                                    "h.root-servers.net.",
+                                                    "i.root-servers.net.",
+                                                    "j.root-servers.net.",
+                                                    "k.root-servers.net.",
+                                                    "l.root-servers.net.",
+                                                    "m.root-servers.net."
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "sname_nsec_match": "pa.",
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.5.241",
+                                    "192.33.4.12",
+                                    "192.36.148.17",
+                                    "192.58.128.30",
+                                    "192.112.36.4",
+                                    "192.203.230.10",
+                                    "192.228.79.201",
+                                    "193.0.14.129",
+                                    "198.41.0.4",
+                                    "198.97.190.53",
+                                    "199.7.83.42",
+                                    "199.7.91.13",
+                                    "199.9.14.201",
+                                    "202.12.27.33"
+                                ],
+                                "ns_names": [
+                                    "a.root-servers.net.",
+                                    "b.root-servers.net.",
+                                    "c.root-servers.net.",
+                                    "d.root-servers.net.",
+                                    "e.root-servers.net.",
+                                    "f.root-servers.net.",
+                                    "g.root-servers.net.",
+                                    "h.root-servers.net.",
+                                    "i.root-servers.net.",
+                                    "j.root-servers.net.",
+                                    "k.root-servers.net.",
+                                    "l.root-servers.net.",
+                                    "m.root-servers.net."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "./IN/SOA",
+                                "description": "RRset for ./SOA",
+                                "name": ".",
+                                "ttl": 86400,
+                                "type": "SOA",
+                                "rdata": [
+                                    "a.root-servers.net. nstld.verisign-grs.com. 2023041801 1800 900 604800 86400"
+                                ],
+                                "servers": [
+                                    "192.5.5.241",
+                                    "192.33.4.12",
+                                    "192.36.148.17",
+                                    "192.58.128.30",
+                                    "192.112.36.4",
+                                    "192.203.230.10",
+                                    "192.228.79.201",
+                                    "193.0.14.129",
+                                    "198.41.0.4",
+                                    "198.97.190.53",
+                                    "199.7.83.42",
+                                    "199.7.91.13",
+                                    "199.9.14.201",
+                                    "202.12.27.33"
+                                ],
+                                "ns_names": [
+                                    "a.root-servers.net.",
+                                    "b.root-servers.net.",
+                                    "c.root-servers.net.",
+                                    "d.root-servers.net.",
+                                    "e.root-servers.net.",
+                                    "f.root-servers.net.",
+                                    "g.root-servers.net.",
+                                    "h.root-servers.net.",
+                                    "i.root-servers.net.",
+                                    "j.root-servers.net.",
+                                    "k.root-servers.net.",
+                                    "l.root-servers.net.",
+                                    "m.root-servers.net."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "rrsig": [
+                                    {
+                                        "id": "./8/60955",
+                                        "description": "RRSIG covering ./SOA",
+                                        "signer": ".",
+                                        "algorithm": 8,
+                                        "key_tag": 60955,
+                                        "original_ttl": 86400,
+                                        "labels": 0,
+                                        "inception": "2023-04-18 16:00:00 UTC",
+                                        "expiration": "2023-05-01 17:00:00 UTC",
+                                        "signature": "lJzbg5d76myBaNyazJNspb9lo2GEhXFETbDNcOhBeFD2r0dgAQ8XM3JAZSCmfk/16x0ojPr2egCyW6sd2e1hIC7DjP+bPFlq0ERWDCLaQ9VQ/qK0j7+wIQE39jktr5sQxSqi+vqyvCCXQNfDJ/Gxt/ndED1pVpyo8YolmjqiMScLlVGJVUt8MRzESDr6/O25XNHgkVlRAsJ2oI+ZTBdTSoc5fI1CNElClgzVDEedcAvs0+X+xGIZ9dRZME1pVHa/ar5AEv57CyZNi7H2p1if+6km41y43PkwgvAsaUF+bVJ/oRBx7bUVnQMRcWpwUfSd1LjjyI958Lkbe41Eg8qd4w==",
+                                        "ttl": 86400,
+                                        "status": "VALID",
+                                        "servers": [
+                                            "192.5.5.241",
+                                            "192.33.4.12",
+                                            "192.36.148.17",
+                                            "192.58.128.30",
+                                            "192.112.36.4",
+                                            "192.203.230.10",
+                                            "192.228.79.201",
+                                            "193.0.14.129",
+                                            "198.41.0.4",
+                                            "198.97.190.53",
+                                            "199.7.83.42",
+                                            "199.7.91.13",
+                                            "199.9.14.201",
+                                            "202.12.27.33"
+                                        ],
+                                        "ns_names": [
+                                            "a.root-servers.net.",
+                                            "b.root-servers.net.",
+                                            "c.root-servers.net.",
+                                            "d.root-servers.net.",
+                                            "e.root-servers.net.",
+                                            "f.root-servers.net.",
+                                            "g.root-servers.net.",
+                                            "h.root-servers.net.",
+                                            "i.root-servers.net.",
+                                            "j.root-servers.net.",
+                                            "k.root-servers.net.",
+                                            "l.root-servers.net.",
+                                            "m.root-servers.net."
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.5.241",
+                            "192.33.4.12",
+                            "192.36.148.17",
+                            "192.58.128.30",
+                            "192.112.36.4",
+                            "192.203.230.10",
+                            "192.228.79.201",
+                            "193.0.14.129",
+                            "198.41.0.4",
+                            "198.97.190.53",
+                            "199.7.83.42",
+                            "199.7.91.13",
+                            "199.9.14.201",
+                            "202.12.27.33"
+                        ],
+                        "ns_names": [
+                            "a.root-servers.net.",
+                            "b.root-servers.net.",
+                            "c.root-servers.net.",
+                            "d.root-servers.net.",
+                            "e.root-servers.net.",
+                            "f.root-servers.net.",
+                            "g.root-servers.net.",
+                            "h.root-servers.net.",
+                            "i.root-servers.net.",
+                            "j.root-servers.net.",
+                            "k.root-servers.net.",
+                            "l.root-servers.net.",
+                            "m.root-servers.net."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.5.241": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.4.12": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.36.148.17": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.58.128.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.112.36.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.203.230.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.228.79.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.0.14.129": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.41.0.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.97.190.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.83.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.91.13": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.9.14.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.12.27.33": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "pa./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "pa./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "pa./IN/SOA",
+                                "description": "RRset for pa/SOA",
+                                "name": "pa.",
+                                "ttl": 21600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "ns.pa. root.ns.pa. 2023041806 7200 3600 604800 21600"
+                                ],
+                                "servers": [
+                                    "168.77.8.2",
+                                    "168.77.8.4",
+                                    "168.77.8.7",
+                                    "200.0.68.10",
+                                    "200.7.5.14",
+                                    "200.107.82.219",
+                                    "200.160.0.5"
+                                ],
+                                "ns_names": [
+                                    "a.lactld.org.",
+                                    "dns-ext.nic.cr.",
+                                    "ns.dns.br.",
+                                    "ns.nic.pa.",
+                                    "ns.pa.",
+                                    "ns2.pa.",
+                                    "ssdns-tld.nic.cl."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "168.77.8.2",
+                            "168.77.8.4",
+                            "168.77.8.7",
+                            "200.0.68.10",
+                            "200.7.5.14",
+                            "200.107.82.219",
+                            "200.160.0.5"
+                        ],
+                        "ns_names": [
+                            "a.lactld.org.",
+                            "dns-ext.nic.cr.",
+                            "ns.dns.br.",
+                            "ns.nic.pa.",
+                            "ns.pa.",
+                            "ns2.pa.",
+                            "ssdns-tld.nic.cl."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "168.77.8.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "168.77.8.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "168.77.8.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.0.68.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.7.5.14": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.107.82.219": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.160.0.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "servers": {
+                "ns.dns.br.": {
+                    "glue": [
+                        "200.160.0.5",
+                        "2001:12ff:0:a20::5"
+                    ],
+                    "auth": [
+                        "200.160.0.5",
+                        "2001:12ff:0:a20::5"
+                    ]
+                },
+                "ssdns-tld.nic.cl.": {
+                    "glue": [
+                        "200.7.5.14",
+                        "2001:1398:276:0:200:7:5:14"
+                    ],
+                    "auth": [
+                        "200.7.5.14",
+                        "2001:1398:276:0:200:7:5:14"
+                    ]
+                },
+                "dns-ext.nic.cr.": {
+                    "glue": [
+                        "200.107.82.219",
+                        "2001:13c7:7004:110::219"
+                    ],
+                    "auth": [
+                        "200.107.82.219",
+                        "2001:13c7:7004:110::219"
+                    ]
+                },
+                "a.lactld.org.": {
+                    "glue": [
+                        "200.0.68.10",
+                        "2801:14:a000::10"
+                    ],
+                    "auth": [
+                        "200.0.68.10",
+                        "2801:14:a000::10"
+                    ]
+                },
+                "ns.nic.pa.": {
+                    "glue": [
+                        "168.77.8.4"
+                    ],
+                    "auth": [
+                        "168.77.8.4"
+                    ]
+                },
+                "ns.pa.": {
+                    "glue": [
+                        "168.77.8.2"
+                    ],
+                    "auth": [
+                        "168.77.8.2"
+                    ]
+                },
+                "ns2.pa.": {
+                    "glue": [
+                        "168.77.8.7"
+                    ],
+                    "auth": [
+                        "168.77.8.7"
+                    ]
+                }
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC",
+                    "description": "NSEC record(s) proving non-existence (NODATA) of pa/DS",
+                    "nsec": [
+                        {
+                            "id": "pa./IN/NSEC",
+                            "description": "RRset for pa/NSEC",
+                            "name": "pa.",
+                            "ttl": 86400,
+                            "type": "NSEC",
+                            "rdata": [
+                                "page. NS RRSIG NSEC"
+                            ],
+                            "servers": [
+                                "192.5.5.241",
+                                "192.33.4.12",
+                                "192.36.148.17",
+                                "192.58.128.30",
+                                "192.112.36.4",
+                                "192.203.230.10",
+                                "192.228.79.201",
+                                "193.0.14.129",
+                                "198.41.0.4",
+                                "198.97.190.53",
+                                "199.7.83.42",
+                                "199.7.91.13",
+                                "199.9.14.201",
+                                "202.12.27.33"
+                            ],
+                            "ns_names": [
+                                "a.root-servers.net.",
+                                "b.root-servers.net.",
+                                "c.root-servers.net.",
+                                "d.root-servers.net.",
+                                "e.root-servers.net.",
+                                "f.root-servers.net.",
+                                "g.root-servers.net.",
+                                "h.root-servers.net.",
+                                "i.root-servers.net.",
+                                "j.root-servers.net.",
+                                "k.root-servers.net.",
+                                "l.root-servers.net.",
+                                "m.root-servers.net."
+                            ],
+                            "query_options": [
+                                "UDP_-_EDNS0_4096_D_K"
+                            ],
+                            "rrsig": [
+                                {
+                                    "id": "./8/60955",
+                                    "description": "RRSIG covering pa/NSEC",
+                                    "signer": ".",
+                                    "algorithm": 8,
+                                    "key_tag": 60955,
+                                    "original_ttl": 86400,
+                                    "labels": 1,
+                                    "inception": "2023-04-18 16:00:00 UTC",
+                                    "expiration": "2023-05-01 17:00:00 UTC",
+                                    "signature": "Xhn5mjvnbrnQA+cUsuL49afbbnKBDpQSlEL42rlHcB6EGzojUlE+NR/3x6m3Zj9JyR+7tEjMKJwAgGz4H95Q2fkbS2h1q84yznSICF4UqsLF3eDJiKd7nkgc6VDJoExkq/JTp3EgMLFuEYI0c6PmYUAA1mknkKh+uJbUXX8ZaobfAd2zXUr+iXigpCLae3KwS9worQirLCWnawu51ueFPrR+2TzJ7bpR0gn70oCP0MqdQZ7X3t2qDPevPaIBW2SnL7LmLlJzvueQf3spKvE7Dl6dZOgFk+zeykKA8fmACnvfq90A9Nat3jFOf+WT+UlXZ5ecFfczCfWkCd2JNReyNA==",
+                                    "ttl": 86400,
+                                    "status": "VALID",
+                                    "servers": [
+                                        "192.5.5.241",
+                                        "192.33.4.12",
+                                        "192.36.148.17",
+                                        "192.58.128.30",
+                                        "192.112.36.4",
+                                        "192.203.230.10",
+                                        "192.228.79.201",
+                                        "193.0.14.129",
+                                        "198.41.0.4",
+                                        "198.97.190.53",
+                                        "199.7.83.42",
+                                        "199.7.91.13",
+                                        "199.9.14.201",
+                                        "202.12.27.33"
+                                    ],
+                                    "ns_names": [
+                                        "a.root-servers.net.",
+                                        "b.root-servers.net.",
+                                        "c.root-servers.net.",
+                                        "d.root-servers.net.",
+                                        "e.root-servers.net.",
+                                        "f.root-servers.net.",
+                                        "g.root-servers.net.",
+                                        "h.root-servers.net.",
+                                        "i.root-servers.net.",
+                                        "j.root-servers.net.",
+                                        "k.root-servers.net.",
+                                        "l.root-servers.net.",
+                                        "m.root-servers.net."
+                                    ],
+                                    "query_options": [
+                                        "UDP_-_EDNS0_4096_D_K"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "sname_nsec_match": "pa.",
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.5.241",
+                        "192.33.4.12",
+                        "192.36.148.17",
+                        "192.58.128.30",
+                        "192.112.36.4",
+                        "192.203.230.10",
+                        "192.228.79.201",
+                        "193.0.14.129",
+                        "198.41.0.4",
+                        "198.97.190.53",
+                        "199.7.83.42",
+                        "199.7.91.13",
+                        "199.9.14.201",
+                        "202.12.27.33"
+                    ],
+                    "ns_names": [
+                        "a.root-servers.net.",
+                        "b.root-servers.net.",
+                        "c.root-servers.net.",
+                        "d.root-servers.net.",
+                        "e.root-servers.net.",
+                        "f.root-servers.net.",
+                        "g.root-servers.net.",
+                        "h.root-servers.net.",
+                        "i.root-servers.net.",
+                        "j.root-servers.net.",
+                        "k.root-servers.net.",
+                        "l.root-servers.net.",
+                        "m.root-servers.net."
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "com.pa.": {
+        "status": "NOERROR",
+        "queries": {
+            "com.pa./IN/DS": {
+                "nxdomain": [
+                    {
+                        "id": "com.pa./IN/DS",
+                        "soa": [
+                            {
+                                "id": "pa./IN/SOA",
+                                "description": "RRset for pa/SOA",
+                                "name": "pa.",
+                                "ttl": 21600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "ns.pa. root.ns.pa. 2023041806 7200 3600 604800 21600"
+                                ],
+                                "servers": [
+                                    "168.77.8.2",
+                                    "168.77.8.4",
+                                    "168.77.8.7",
+                                    "200.7.5.14",
+                                    "200.160.0.5"
+                                ],
+                                "ns_names": [
+                                    "ns.dns.br.",
+                                    "ns.nic.pa.",
+                                    "ns.pa.",
+                                    "ns2.pa.",
+                                    "ssdns-tld.nic.cl."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "168.77.8.2",
+                            "168.77.8.4",
+                            "168.77.8.7",
+                            "200.7.5.14",
+                            "200.160.0.5"
+                        ],
+                        "ns_names": [
+                            "ns.dns.br.",
+                            "ns.nic.pa.",
+                            "ns.pa.",
+                            "ns2.pa.",
+                            "ssdns-tld.nic.cl."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "168.77.8.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "168.77.8.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "168.77.8.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.7.5.14": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.160.0.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "com.pa./IN/DS",
+                        "soa": [
+                            {
+                                "id": "pa./IN/SOA",
+                                "description": "RRset for pa/SOA",
+                                "name": "pa.",
+                                "ttl": 21600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "ns.pa. root.ns.pa. 2023041806 7200 3600 604800 21600"
+                                ],
+                                "servers": [
+                                    "200.0.68.10",
+                                    "200.107.82.219"
+                                ],
+                                "ns_names": [
+                                    "a.lactld.org.",
+                                    "dns-ext.nic.cr."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.0.68.10",
+                            "200.107.82.219"
+                        ],
+                        "ns_names": [
+                            "a.lactld.org.",
+                            "dns-ext.nic.cr."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.0.68.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.107.82.219": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "com.pa./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "com.pa./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "com.pa./IN/SOA",
+                                "description": "RRset for com.pa/SOA",
+                                "name": "com.pa.",
+                                "ttl": 21600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "ns.pa. root.ns.pa. 2023041801 7200 3600 86400 21600"
+                                ],
+                                "servers": [
+                                    "168.77.8.2",
+                                    "168.77.8.4",
+                                    "168.77.8.7",
+                                    "200.0.68.10",
+                                    "200.7.5.14",
+                                    "200.107.82.219",
+                                    "200.160.0.5"
+                                ],
+                                "ns_names": [
+                                    "a.lactld.org.",
+                                    "dns-ext.nic.cr.",
+                                    "ns.dns.br.",
+                                    "ns.nic.pa.",
+                                    "ns.pa.",
+                                    "ns2.pa.",
+                                    "ssdns-tld.nic.cl."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "168.77.8.2",
+                            "168.77.8.4",
+                            "168.77.8.7",
+                            "200.0.68.10",
+                            "200.7.5.14",
+                            "200.107.82.219",
+                            "200.160.0.5"
+                        ],
+                        "ns_names": [
+                            "a.lactld.org.",
+                            "dns-ext.nic.cr.",
+                            "ns.dns.br.",
+                            "ns.nic.pa.",
+                            "ns.pa.",
+                            "ns2.pa.",
+                            "ssdns-tld.nic.cl."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "168.77.8.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "168.77.8.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "168.77.8.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.0.68.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.7.5.14": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.107.82.219": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.160.0.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "servers": {
+                "ns.dns.br.": {
+                    "auth": [
+                        "200.160.0.5",
+                        "2001:12ff:0:a20::5"
+                    ]
+                },
+                "ssdns-tld.nic.cl.": {
+                    "auth": [
+                        "200.7.5.14",
+                        "2001:1398:276:0:200:7:5:14"
+                    ]
+                },
+                "dns-ext.nic.cr.": {
+                    "auth": [
+                        "200.107.82.219",
+                        "2001:13c7:7004:110::219"
+                    ]
+                },
+                "a.lactld.org.": {
+                    "auth": [
+                        "200.0.68.10",
+                        "2801:14:a000::10"
+                    ]
+                },
+                "ns.nic.pa.": {
+                    "auth": [
+                        "168.77.8.4"
+                    ]
+                },
+                "ns.pa.": {
+                    "auth": [
+                        "168.77.8.2"
+                    ]
+                },
+                "ns2.pa.": {
+                    "auth": [
+                        "168.77.8.7"
+                    ]
+                }
+            }
+        },
+        "delegation": {
+            "status": "INCOMPLETE",
+            "errors": [
+                {
+                    "description": "No delegation NS records were detected in the parent zone (pa).  This results in an NXDOMAIN response to a DS query (for DNSSEC), even if the parent servers are authoritative for the child.",
+                    "code": "NO_NS_IN_PARENT",
+                    "servers": [
+                        "168.77.8.2",
+                        "168.77.8.4",
+                        "168.77.8.7",
+                        "200.7.5.14",
+                        "200.160.0.5"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "banconal.com.pa.": {
+        "status": "NOERROR",
+        "queries": {
+            "banconal.com.pa./IN/A": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/A",
+                        "description": "RRset for banconal.com.pa/A",
+                        "name": "banconal.com.pa.",
+                        "ttl": 300,
+                        "type": "A",
+                        "rdata": [
+                            "104.22.16.107",
+                            "104.22.17.107",
+                            "172.67.14.53"
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/NS": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/NS",
+                        "description": "RRset for banconal.com.pa/NS",
+                        "name": "banconal.com.pa.",
+                        "ttl": 86400,
+                        "type": "NS",
+                        "rdata": [
+                            "elisa.ns.cloudflare.com.",
+                            "austin.ns.cloudflare.com."
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "banconal.com.pa./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "banconal.com.pa./IN/SOA",
+                                "description": "RRset for banconal.com.pa/SOA",
+                                "name": "banconal.com.pa.",
+                                "ttl": 3600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "austin.ns.cloudflare.com. dns.cloudflare.com. 2305591455 10000 2400 604800 3600"
+                                ],
+                                "servers": [
+                                    "108.162.193.70",
+                                    "108.162.194.54",
+                                    "162.159.38.54",
+                                    "172.64.33.70",
+                                    "172.64.34.54",
+                                    "173.245.59.70"
+                                ],
+                                "ns_names": [
+                                    "austin.ns.cloudflare.com.",
+                                    "elisa.ns.cloudflare.com."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/SOA",
+                        "description": "RRset for banconal.com.pa/SOA",
+                        "name": "banconal.com.pa.",
+                        "ttl": 3600,
+                        "type": "SOA",
+                        "rdata": [
+                            "austin.ns.cloudflare.com. dns.cloudflare.com. 2305591455 10000 2400 604800 3600"
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/MX": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/MX",
+                        "description": "RRset for banconal.com.pa/MX",
+                        "name": "banconal.com.pa.",
+                        "ttl": 300,
+                        "type": "MX",
+                        "rdata": [
+                            "5 cust75742-1.in.mailcontrol.com.",
+                            "5 cust75742-2.in.mailcontrol.com."
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/TXT",
+                        "description": "RRset for banconal.com.pa/TXT",
+                        "name": "banconal.com.pa.",
+                        "ttl": 60,
+                        "type": "TXT",
+                        "rdata": [
+                            "\"MS=ms29326055\"",
+                            "\"86nbdopvbbnmf33g7t5etvufok\"",
+                            "\"dfc3mvb9h1667ci821cmr3dqjt\"",
+                            "\"amazonses:+p444yd6RG9A6JxUewvnB7ezlXX2EfONkbowDmIW7Fo=\"",
+                            "\"amazonses:7ExMjK5xHpsWLeN4rndm9HF/1hnSftn4v7TWfWPq4Gs=\"",
+                            "\"facebook-domain-verification=1qgzz8ob5y310qucxl4kapzdkt6go0\"",
+                            "\"google-site-verification=tUI7ZJA0DMUcoztEsarhI_1CyyVt39QqH1EGt8Dr3lk\"",
+                            "\"v=spf1 mx a ip4:200.46.114.65 ip4:200.46.114.72 ip4:200.46.129.54 ip4:200.46.127.12 ip4:200.46.114.68 ip4:168.245.76.236 ip4:200.115.144.26 ip4:200.115.144.28 ip4:200.115.144.29 ip4:54.234.132.234 include:spf.protection.outlook.com include:amazonses.com i\" \"nclude:mailcontrol.com -all\""
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "banconal.com.pa./IN/AAAA",
+                        "description": "RRset for banconal.com.pa/AAAA",
+                        "name": "banconal.com.pa.",
+                        "ttl": 300,
+                        "type": "AAAA",
+                        "rdata": [
+                            "2606:4700:10::6816:106b",
+                            "2606:4700:10::6816:116b",
+                            "2606:4700:10::ac43:e35"
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "banconal.com.pa./IN/DS",
+                        "soa": [
+                            {
+                                "id": "com.pa./IN/SOA",
+                                "description": "RRset for com.pa/SOA",
+                                "name": "com.pa.",
+                                "ttl": 21600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "ns.pa. root.ns.pa. 2023041801 7200 3600 86400 21600"
+                                ],
+                                "servers": [
+                                    "168.77.8.2",
+                                    "168.77.8.4",
+                                    "168.77.8.7",
+                                    "200.0.68.10",
+                                    "200.7.5.14",
+                                    "200.107.82.219",
+                                    "200.160.0.5"
+                                ],
+                                "ns_names": [
+                                    "a.lactld.org.",
+                                    "dns-ext.nic.cr.",
+                                    "ns.dns.br.",
+                                    "ns.nic.pa.",
+                                    "ns.pa.",
+                                    "ns2.pa.",
+                                    "ssdns-tld.nic.cl."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "168.77.8.2",
+                            "168.77.8.4",
+                            "168.77.8.7",
+                            "200.0.68.10",
+                            "200.7.5.14",
+                            "200.107.82.219",
+                            "200.160.0.5"
+                        ],
+                        "ns_names": [
+                            "a.lactld.org.",
+                            "dns-ext.nic.cr.",
+                            "ns.dns.br.",
+                            "ns.nic.pa.",
+                            "ns.pa.",
+                            "ns2.pa.",
+                            "ssdns-tld.nic.cl."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "168.77.8.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "168.77.8.4": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "168.77.8.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.0.68.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.7.5.14": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.107.82.219": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.160.0.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "banconal.com.pa./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "banconal.com.pa./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "banconal.com.pa./IN/SOA",
+                                "description": "RRset for banconal.com.pa/SOA",
+                                "name": "banconal.com.pa.",
+                                "ttl": 3600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "austin.ns.cloudflare.com. dns.cloudflare.com. 2305591455 10000 2400 604800 3600"
+                                ],
+                                "servers": [
+                                    "108.162.193.70",
+                                    "108.162.194.54",
+                                    "162.159.38.54",
+                                    "172.64.33.70",
+                                    "172.64.34.54",
+                                    "173.245.59.70"
+                                ],
+                                "ns_names": [
+                                    "austin.ns.cloudflare.com.",
+                                    "elisa.ns.cloudflare.com."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "s7o3tem9xb.banconal.com.pa./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "s7o3tem9xb.banconal.com.pa./IN/A",
+                        "soa": [
+                            {
+                                "id": "banconal.com.pa./IN/SOA",
+                                "description": "RRset for banconal.com.pa/SOA",
+                                "name": "banconal.com.pa.",
+                                "ttl": 3600,
+                                "type": "SOA",
+                                "rdata": [
+                                    "austin.ns.cloudflare.com. dns.cloudflare.com. 2305591455 10000 2400 604800 3600"
+                                ],
+                                "servers": [
+                                    "108.162.193.70",
+                                    "108.162.194.54",
+                                    "162.159.38.54",
+                                    "172.64.33.70",
+                                    "172.64.34.54",
+                                    "173.245.59.70"
+                                ],
+                                "ns_names": [
+                                    "austin.ns.cloudflare.com.",
+                                    "elisa.ns.cloudflare.com."
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "108.162.193.70",
+                            "108.162.194.54",
+                            "162.159.38.54",
+                            "172.64.33.70",
+                            "172.64.34.54",
+                            "173.245.59.70"
+                        ],
+                        "ns_names": [
+                            "austin.ns.cloudflare.com.",
+                            "elisa.ns.cloudflare.com."
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "108.162.193.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "108.162.194.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.38.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.33.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "172.64.34.54": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.245.59.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "servers": {
+                "austin.ns.cloudflare.com.": {
+                    "auth": [
+                        "108.162.193.70",
+                        "172.64.33.70",
+                        "173.245.59.70",
+                        "2606:4700:58::adf5:3b46",
+                        "2803:f800:50::6ca2:c146",
+                        "2a06:98c1:50::ac40:2146"
+                    ]
+                },
+                "elisa.ns.cloudflare.com.": {
+                    "auth": [
+                        "108.162.194.54",
+                        "162.159.38.54",
+                        "172.64.34.54",
+                        "2606:4700:50::a29f:2636",
+                        "2803:f800:50::6ca2:c236",
+                        "2a06:98c1:50::ac40:2236"
+                    ]
+                }
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    }
+}

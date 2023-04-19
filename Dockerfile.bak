@@ -1,0 +1,11 @@
+# Start with the official Apache NiFi image
+FROM apache/nifi:latest
+
+# Install required packages for dnsviz and psycopg2
+USER root
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip libpq-dev && \  # Add libpq-dev here
+    pip3 install dnsviz psycopg2
+
+# Switch back to the default NiFi user
+USER nifi
